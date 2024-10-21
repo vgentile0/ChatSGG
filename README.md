@@ -1,3 +1,6 @@
+# ChatSGG
+
+
 Questa breve documentazione intende fornire una panoramica generale della Web App ChatSGG descrivendone l’uso, le principali tecnologie utilizzate e la logica oltre che una guida all’uso.
 1. OVERVIEW E GUIDA ALL’USO
 All’apertura della web app si viene indirizzati alla pagina di login che consente l’accesso ed eventualmente la registrazione di un user. Per creare un account è necessario inserire i propri dati e scegliere un username univoco oltre che una password. In particolare, qualora si dovesse scegliere un username già utilizzato si visualizzerà a schermo un errore, come anche nel caso in cui i campi “password” e “conferma password” non dovessero coincidere. Le password prima di essere conservate nel database vengono “hashate” con Bcrypt per garantire l’autenticazione sicura.
